@@ -17,7 +17,36 @@
 }
 
 .site-section{
-  background-color: black;
+  /* background-color: black; */
+}
+
+.about-main{
+  padding-bottom: 0 !important;
+}
+
+.about-secondary{
+  padding-top: 0 !important;
+}
+
+.about-description{
+  display: flex;
+}
+
+.about-text{
+  margin: auto;
+}
+
+.experience-container{
+  margin-bottom: 50px;
+}
+
+.content-section{
+  background-color: #333333;
+  color: #eeeeee !important
+}
+
+.content-header{
+  color: #eeeeee !important
 }
 /* End Custom */
 
@@ -260,6 +289,7 @@ body {
   color: #fff; }
 
 a {
+  color: black !important;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease; }
@@ -843,7 +873,7 @@ h1, h2, h3, h4, h5,
 .block-heading-1 h2 {
   font-size: 3rem;
   text-transform: none !important;
-  color: #007bff; }
+  color: black; }
   @media (max-width: 991.98px) {
     .block-heading-1 h2 {
       font-size: 2rem; } }
